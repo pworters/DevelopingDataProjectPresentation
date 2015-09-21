@@ -1,11 +1,13 @@
-Babies
+Guessing Some Metrics about Babies!
 ========================================================
-author: 
-date: 
+author: Pauline Worters
+date: September 2015
 
-First Slide
+Introduction
 ========================================================
 
+Course: JHU
+Data is from..
 For more details on authoring R presentations click the
 **Help** button on the toolbar.
 
@@ -13,7 +15,7 @@ For more details on authoring R presentations click the
 - Bullet 2
 - Bullet 3
 
-Slide With Code
+Application
 ========================================================
 
 ```{r}
