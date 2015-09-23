@@ -6,11 +6,11 @@ date: September 2015
 
 Introduction
 ========================================================
-We shall describe an Shiny application written for the Developing Data Products by Johns Hopkins University.
+We shall describe an Shiny application written for the Developing Data Products course by Johns Hopkins University.
 
-The goal of this application/game is to estimate the mean of the gestation period and weight at birth of babies.
+The goal of this application/game is to estimate the means of the gestation period and weight at birth of babies.
 
-If the guessed means are close enough to the true mean, then a "SUCCESS" text will appear!
+If the guessed means are close enough to the true means, then a "SUCCESS" text will appear.
 
 
 Babies Data
@@ -30,9 +30,9 @@ More details of this dataset can be found at http://people.uncw.edu/frierson/S21
 
 Babies Application
 ========================================================
-The application is available at the webpage https://pworters.shinyapps.io/DevelopingDataProject.
+The application is hosted at https://pworters.shinyapps.io/DevelopingDataProject.
 
-The plot that you will see at the application is also shown here
+A plot is available at the app (and shown here) to help you:
 ```{r, echo=FALSE}
 plot(babies$wt, babies$gestation, main = "Gestation period versus weight of babies at birth", ylab = "Gestation period (days)", xlab = "Birth weight (oz)")
 ```
