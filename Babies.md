@@ -3,37 +3,44 @@ Guessing Some Metrics about Babies!
 author: Pauline Worters
 date: September 2015
 
+
 Introduction
 ========================================================
+We shall describe an Shiny application written for the Developing Data Products by Johns Hopkins University.
 
-Course: JHU
-Data is from..
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
+The goal of this application/game is to estimate the mean of the gestation period and weight at birth of babies.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+If the guessed means are close enough to the true mean, then a "SUCCESS" text will appear!
 
-Application
+
+Babies Data
 ========================================================
 
-
-```r
-summary(cars)
-```
+The fields of the "Babies" data are shown here:
 
 ```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
+ [1] "id"        "pluralty"  "outcome"   "date"      "gestation"
+ [6] "sex"       "wt"        "parity"    "race"      "age"      
+[11] "ed"        "ht"        "wt1"       "drace"     "dage"     
+[16] "ded"       "dht"       "dwt"       "marital"   "inc"      
+[21] "smoke"     "time"      "number"   
 ```
+For this application, we will only use the fields "gestation" and "wt".
+More details of this dataset can be found at http://people.uncw.edu/frierson/S215%5Cbabies_lab.pdf
 
-Slide With Plot
+
+
+Babies Application
 ========================================================
+The application is available at the webpage https://pworters.shinyapps.io/DevelopingDataProject.
 
+The plot that you will see at the application is also shown here
 ![plot of chunk unnamed-chunk-2](Babies-figure/unnamed-chunk-2-1.png) 
+
+
+Summary
+========================================================
+- A Shiny application (game) is hosted at https://pworters.shinyapps.io/DevelopingDataProject
+- The application requests for your inputs to the mean gestation period and weight of babies
+- When you have succeeded at a close guess, a "SUCCESS" is returned
+- Have fun!!
